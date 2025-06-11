@@ -1,9 +1,9 @@
-
-set(EXECUTABLE "Run")
-add_executable(${EXECUTABLE} Run.cpp)
-target_link_libraries(${EXECUTABLE} ${LIBRARY})
-set_target_properties(${EXECUTABLE}
-    PROPERTIES 
-    LINKER_LANGUAGE CXX
-    RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_BINARY_DIR}/../bin
-)
+add_subdirectory(task_1)
+add_subdirectory(task_2)
+add_subdirectory(task_3)
+add_subdirectory(task_4)
+add_subdirectory(task_5)
+add_subdirectory(task_6)
+# add_subdirectory(task_7)
+add_subdirectory(task_8)
+# add_subdirectory(task_9)
